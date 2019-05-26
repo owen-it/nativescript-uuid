@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gdtdpt/nativescript-uuid.git"
+    "url": "git@github.com:owen-it/nativescript-uuid.git"
   },
   "keywords": [
     "NativeScript",
