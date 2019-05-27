@@ -10,8 +10,8 @@ Uses [`SAMKeychain Cocoa Pod`](https://cocoapods.org/pods/SAMKeychain).
 
 Run the following command from the root of your project:
 
-```
-tns plugin add nativescript-uuid
+```bash
+tns plugin add @owen-it/nativescript-uuid
 ```
 
 ## Usage
