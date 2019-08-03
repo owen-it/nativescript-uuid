@@ -8,4 +8,5 @@ function getUUID() {
 
     return strApplicationUUID;
 }
+
 exports.getUUID = getUUID;

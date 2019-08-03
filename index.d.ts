@@ -1,4 +1,1 @@
-
-
-
 export function getUUID(): string;
