@@ -2,7 +2,7 @@
   "name": "@owen-it/nativescript-uuid",
   "version": "0.0.4",
   "description": "A NativeScript plugin that allows you to get a UUID (Universal Unique Identifier) for a device.",
-  "main": "index.js",
+  "main": "index",
   "type": "index.d.ts",
   "nativescript": {
     "id": "org.nativescript.uuid",
