@@ -1,4 +1,4 @@
-function getUUID() {
+export function getUUID() {
     var appName = NSBundle.mainBundle.infoDictionary.objectForKey(kCFBundleNameKey);
     var strApplicationUUID = SAMKeychain.passwordForServiceAccount(appName, "incoding");
     if (!strApplicationUUID){
@@ -8,5 +8,3 @@ function getUUID() {
 
     return strApplicationUUID;
 }
-
-exports.getUUID = getUUID;

@@ -1,7 +1,5 @@
-const { device } = require('tns-core-modules/platform');
+import { Device } from '@nativescript/core';
 
-function getUUID() {
-  return device ? device.uuid : null;
+export function getUUID() {
+  return Device ? Device.uuid : null;
 }
-
-exports.getUUID = getUUID;
